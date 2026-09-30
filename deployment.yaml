@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: devops-container
-          image: devops-app:1.0
+          image: 172.31.246.47:8082/docker-local/devops-app:1.0
           ports:
             - containerPort: 8080
           envFrom:
